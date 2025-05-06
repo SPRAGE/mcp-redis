@@ -15,4 +15,4 @@ dependencies = [
 package-dir = "src"
 
 [project.scripts]
-redis-mcp-server = "src.main:main"
+redis-mcp-server = "main:main"
