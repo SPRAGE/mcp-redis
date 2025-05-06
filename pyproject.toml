@@ -12,4 +12,4 @@ dependencies = [
 ]
 
 [project.scripts]
-redis-mcp-server = "src.main:main"
+mcp-redis = "src.main:main"
