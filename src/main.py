@@ -23,6 +23,9 @@ class RedisMCPServer:
     def run(self):
         mcp.run(transport=MCP_TRANSPORT)
 
-if __name__ == "__main__":
+def main():
     server = RedisMCPServer()
     server.run()
+
+if __name__ == "__main__":
+    main()
