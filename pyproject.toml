@@ -11,5 +11,8 @@ dependencies = [
     "numpy>=2.2.4",
 ]
 
+[tool.uv]
+package-dir = "src"
+
 [project.scripts]
 redis-mcp-server = "src.main:main"
